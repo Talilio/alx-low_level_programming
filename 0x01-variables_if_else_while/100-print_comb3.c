@@ -11,16 +11,16 @@ int digital_left;
 int digital_right;
 
 
-for (digital_left = 48 ; digital_right <= 58; digital_left++)
+for (digital_left = 48 ; digital_right <= 78; digital_left++)
 {
-for (digital_right = digital_left + 1 ; digital_right <= 58; digital_right++)
+for (digital_right = digital_left + 1 ; digital_right <= 78; digital_right++)
 {
 
 putchar(digital_left);
 putchar(digital_right); 
 
 
-if ((digital_left == 56) && (digital_right == 58))
+if ((digital_left == 56) && (digital_right == 78))
 {
 break;
 }
