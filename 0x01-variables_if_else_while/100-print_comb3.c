@@ -7,25 +7,35 @@
 int main(void)
 
 {
-int digit1, digit2;
+int digit_left;
+int digit_right;
 
-for (digit1 = 0; digit2 < 9; digit1++)
-{
-for (digit2 = digit1 + 1; digit2 < 10; digit2++)
-{
-putchar((digit1 % 10) + '0');
-putchar((digit2 % 10) + '0'); 
 
-if (digit1 == 8 && digit2 == 9)
-continue;
+for (digit_left = 48 ; digit_right <= 58; digit_left++)
+{
+for (digit_right = digit_left + 1 ; digit_right <= 58; number_right++)
+{
+
+putchar(digital_left);
+putchar(digital_right); 
+
+
+if ((digit_left == 56) && (digit_right == 78))
+{
+break;
+}
 
 putchar(',');
 putchar(' ');
+
 }
+
 }
 
 putchar('\n');
 
+
 return (0);
+
 
 }
