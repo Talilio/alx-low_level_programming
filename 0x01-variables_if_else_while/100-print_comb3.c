@@ -7,20 +7,20 @@
 int main(void)
 
 {
-int digit_left;
-int digit_right;
+int digital_left;
+int digital_right;
 
 
-for (digit_left = 48 ; digit_right <= 58; digit_left++)
+for (digital_left = 48 ; digital_right <= 58; digital_left++)
 {
-for (digit_right = digit_left + 1 ; digit_right <= 58; number_right++)
+for (digital_right = digital_left + 1 ; digital_right <= 58; digital_right++)
 {
 
 putchar(digital_left);
 putchar(digital_right); 
 
 
-if ((digit_left == 56) && (digit_right == 78))
+if ((digital_left == 56) && (digital_right == 78))
 {
 break;
 }
