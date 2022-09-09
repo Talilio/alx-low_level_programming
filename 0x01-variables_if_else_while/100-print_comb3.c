@@ -20,7 +20,7 @@ putchar(digital_left);
 putchar(digital_right); 
 
 
-if ((digital_left == 56) && (digital_right == 78))
+if ((digital_left == 56) && (digital_right == 58))
 {
 break;
 }
