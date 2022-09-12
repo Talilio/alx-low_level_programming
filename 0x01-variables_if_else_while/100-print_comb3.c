@@ -8,15 +8,18 @@
  */
 int main(void)
 {
-int d;
+int num1;
+int num2;
 
-for (d = 0; d < 99; d++)
+for (num1 = 0; num1 < 9; num1++)
 {
-putchar((d / 10) + '0');
-putchar((d % 10) + '0');
+for (num2 = num1 + 1; num2 < 10; num2++)
+{
+putchar((num1 % 10) + '0');
+putchar((num2 % 10) + '0');
+if (num1 == 8 && num2 == 9)
+continue;
 
-if (d != 99)
-{
 putchar(',');
 putchar(' ');
 }
@@ -24,4 +27,5 @@ putchar(' ');
 putchar('\n');
 
 return (0);
+
 }
