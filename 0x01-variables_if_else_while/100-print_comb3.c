@@ -10,7 +10,7 @@ int main(void)
 {
 int d;
 
-for (d = 0; d < 89; d++)
+for (d = 0; d < 99; d++)
 {
 putchar((d / 10) + '0');
 putchar((d % 10) + '0');
