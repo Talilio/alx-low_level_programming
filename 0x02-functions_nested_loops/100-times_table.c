@@ -22,13 +22,15 @@ _putchar('0');
 }
 else if (num3 < 10)
 {
-_putchar(' '); _putchar(' ');
+_putchar(' ');
+_putchar(' ');
 _putchar('0' + num6);
 }
 else if (num3 < 100)
 {
 _putchar(' ');
-_putchar('0' + num5); _putchar('0' + num6);
+_putchar('0' + num5);
+_putchar('0' + num6);
 }
 else
 {
@@ -38,7 +40,8 @@ _putchar('0' + num6);
 }
 if (num2 < n)
 {
-_putchar(','); _putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 else
 _putchar('\n');
