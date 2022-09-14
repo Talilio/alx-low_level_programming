@@ -27,7 +27,7 @@ else if ((num1 * num2) < 100)
 {
 _putchar(' ');
 _putchar((((num2 * num1) / 10) % 10) + '0');
-_putchar((((num2 * num1) % 10) + '0'); 
+_putchar((((num2 * num1) % 10) + '0');
 }
 else if ((num1 * num2) < 1000)
 {
