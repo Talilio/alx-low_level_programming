@@ -14,7 +14,9 @@ for (num1 = 0; num1 <= n; num1++)
 {
 for (num2 = 0; num2 <= n; num2++)
 {
-num3 = num1 * num2; num4 = num3 / 100; num5 = (num3 /  10) % 10;
+num3 = num1 * num2;
+num4 = num3 / 100;
+num5 = (num3 / 10) % 10;
 num6 = (num3 % 100) % 10;
 if (num2 == 0)
 {
