@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _mul - a function that multiplies two integers
- *@a: int to be printed
- *@b: int to be printed
+ * mul -multiplies two integers
+ * @a: print int
+ * @b: print int
  * Return: Always 0.
  */
 
