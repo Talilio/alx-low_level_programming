@@ -27,6 +27,6 @@ brk = 1;
 else if (brk == 1)
 break;
 }
-res = sig * res;
+res = sig *res;
 return (res);
 }
