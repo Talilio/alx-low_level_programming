@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - a function that returns a pointer
+ * _strdup - a function that returns a pointer
  * to a newly allocated space in memory
  * @str: array of elements
  * Return: pointer
