@@ -11,23 +11,33 @@
 
 int main(int argc, char **argv)
 {
-	int n, i;
-	int (*ptr)(int, char **);
+	int bytes, i;
+	char *arr;
 
 	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
 	}
-	n = atoi(argv[1]);
-	if (n < 0)
+
+	bytes = atoi(argv[1]);
+
+	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
 	}
-	ptr = &main;
-	for (i = 0; i < n; i++)
-		printf("%.2x ", *((unsigned char *)(ptr + i)));
-	printf("\n");
+
+	arr = (char *)main;
+
+	for (i = 0; i < bytes; i++)
+	{
+		if (i == bytes - 1)
+		{
+			printf("%02hhx\n", arr[i]);
+			break;
+		}
+		printf("%02hhx ", arr[i]);
+	}
 	return (0);
 }
